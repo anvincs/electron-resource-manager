@@ -1,0 +1,15 @@
+{
+  "appId": "com.avn.resource-manager",
+  "files": ["dist-electron", "dist-react"],
+  "icon": "./desktopIcon.png",
+  "win": {
+    "target": ["portable", "msi"]
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  }
+}
