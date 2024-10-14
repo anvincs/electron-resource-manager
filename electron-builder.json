@@ -2,6 +2,7 @@
   "appId": "com.avn.resource-manager",
   "files": ["dist-electron", "dist-react"],
   "icon": "./desktopIcon.png",
+  "extraResources": ["dist-electron/preload.cjs"],
   "win": {
     "target": ["portable", "msi"]
   },
